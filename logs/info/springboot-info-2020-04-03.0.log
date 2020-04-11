@@ -1,0 +1,269 @@
+2020-04-03 00:18:31.994 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-04-03 00:18:32.686 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@a8c1f44, started on Thu Jan 01 08:00:00 CST 1970
+2020-04-03 00:18:32.697 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-04-03 00:18:32.706 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 16860 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-04-03 00:18:32.757 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-04-03 00:18:32.952 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-04-03 00:18:34.300 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 00:18:34.303 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-03 00:18:34.409 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91ms. Found 1 repository interfaces.
+2020-04-03 00:18:34.434 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 00:18:34.437 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-03 00:18:34.467 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.momolela.repository.ArticleRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-03 00:18:34.467 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2020-04-03 00:18:35.122 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 00:18:35.710 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-04-03 00:18:35.728 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-03 00:18:35.729 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 00:18:35.730 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-03 00:18:35.919 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-04-03 00:18:35.919 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2967 ms
+2020-04-03 00:18:36.191 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-04-03 00:18:36.250 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-03 00:18:36.253 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用停止了
+2020-04-03 00:18:36.322 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-03 00:19:53.629 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-04-03 00:19:54.095 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@75d0911a, started on Thu Jan 01 08:00:00 CST 1970
+2020-04-03 00:19:54.104 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-04-03 00:19:54.188 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 9372 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-04-03 00:19:54.189 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-04-03 00:19:54.484 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-04-03 00:19:56.458 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 00:19:56.461 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-03 00:19:56.563 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91ms. Found 1 repository interfaces.
+2020-04-03 00:19:56.591 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 00:19:56.593 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-03 00:19:56.623 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.momolela.repository.ArticleRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-03 00:19:56.623 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2020-04-03 00:19:57.330 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 00:19:57.885 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-04-03 00:19:57.901 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-03 00:19:57.902 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 00:19:57.902 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-03 00:19:58.071 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-04-03 00:19:58.072 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3587 ms
+2020-04-03 00:19:58.369 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-04-03 00:19:59.327 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-04-03 00:19:59.876 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-03 00:19:59.879 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用停止了
+2020-04-03 00:19:59.941 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-03 00:20:30.599 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-04-03 00:20:30.973 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4b672daa, started on Thu Jan 01 08:00:00 CST 1970
+2020-04-03 00:20:31.008 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-04-03 00:20:31.018 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 6820 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-04-03 00:20:31.021 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-04-03 00:20:31.294 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-04-03 00:20:32.776 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 00:20:32.779 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-03 00:20:32.884 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95ms. Found 1 repository interfaces.
+2020-04-03 00:20:32.912 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 00:20:32.914 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-03 00:20:32.943 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.momolela.repository.ArticleRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-03 00:20:32.944 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2020-04-03 00:20:33.740 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 00:20:34.324 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-04-03 00:20:34.342 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-03 00:20:34.344 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 00:20:34.344 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-03 00:20:34.548 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-04-03 00:20:34.548 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3253 ms
+2020-04-03 00:20:34.799 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-04-03 00:20:35.569 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-04-03 00:20:36.064 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-03 00:20:36.068 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用停止了
+2020-04-03 00:20:36.139 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-03 00:21:06.160 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-04-03 00:21:06.723 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3d9f6567, started on Thu Jan 01 08:00:00 CST 1970
+2020-04-03 00:21:06.731 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-04-03 00:21:06.841 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 17420 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-04-03 00:21:06.843 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-04-03 00:21:07.074 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-04-03 00:21:08.658 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 00:21:08.661 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-03 00:21:08.766 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 98ms. Found 1 repository interfaces.
+2020-04-03 00:21:08.790 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 00:21:08.792 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-03 00:21:08.822 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.momolela.repository.ArticleRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-03 00:21:08.823 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2020-04-03 00:21:09.519 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 00:21:10.071 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-04-03 00:21:10.087 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-03 00:21:10.088 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 00:21:10.089 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-03 00:21:10.254 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-04-03 00:21:10.255 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3180 ms
+2020-04-03 00:21:10.498 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-04-03 00:21:11.163 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-04-03 00:21:11.622 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-03 00:21:11.625 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用停止了
+2020-04-03 00:21:11.694 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-03 00:21:36.893 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-04-03 00:21:37.651 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@fd0e5b6, started on Thu Jan 01 08:00:00 CST 1970
+2020-04-03 00:21:37.660 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-04-03 00:21:37.669 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 10764 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-04-03 00:21:37.677 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-04-03 00:21:37.939 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-04-03 00:21:39.251 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 00:21:39.254 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-03 00:21:39.364 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100ms. Found 1 repository interfaces.
+2020-04-03 00:21:39.388 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 00:21:39.390 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-03 00:21:39.425 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.momolela.repository.ArticleRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-03 00:21:39.426 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2020-04-03 00:21:40.126 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 00:21:40.653 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-04-03 00:21:40.668 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-03 00:21:40.669 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 00:21:40.670 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-03 00:21:40.845 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-04-03 00:21:40.846 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2906 ms
+2020-04-03 00:21:41.102 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-04-03 00:21:41.793 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-04-03 00:21:42.204 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-03 00:21:42.208 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用停止了
+2020-04-03 00:21:42.271 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-03 00:25:15.260 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-04-03 00:25:15.784 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4189d70b, started on Thu Jan 01 08:00:00 CST 1970
+2020-04-03 00:25:15.793 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-04-03 00:25:15.804 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 14720 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-04-03 00:25:15.806 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-04-03 00:25:16.015 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-04-03 00:25:17.385 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 00:25:17.391 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-03 00:25:17.434 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2020-04-03 00:25:17.952 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 00:25:18.413 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-04-03 00:25:18.429 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-03 00:25:18.431 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 00:25:18.431 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-03 00:25:18.585 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-04-03 00:25:18.585 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2570 ms
+2020-04-03 00:25:18.697 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-04-03 00:25:19.405 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-04-03 00:25:19.815 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 00:25:21.822 [main] INFO  io.searchbox.client.AbstractJestClient - Setting server pool to a list of 1 servers: [http://127.0.0.1:9200]
+2020-04-03 00:25:21.826 [main] INFO  io.searchbox.client.JestClientFactory - Using multi thread/connection supporting pooling connection manager
+2020-04-03 00:25:21.945 [main] INFO  io.searchbox.client.JestClientFactory - Using custom GSON instance
+2020-04-03 00:25:21.946 [main] INFO  io.searchbox.client.JestClientFactory - Node Discovery disabled...
+2020-04-03 00:25:21.946 [main] INFO  io.searchbox.client.JestClientFactory - Idle connection reaping disabled...
+2020-04-03 00:25:22.071 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-03 00:25:22.115 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot'
+2020-04-03 00:25:22.120 [main] INFO  com.momolela.SpringBootStart - Started SpringBootStart in 8.302 seconds (JVM running for 11.731)
+2020-04-03 00:25:22.123 [main] INFO  c.m.l.s.HelloApplicationRunner - ApplicationRunner...run....
+2020-04-03 00:25:22.123 [main] INFO  c.m.l.s.HelloCommandLineRunner - CommandLineRunner...run...[]
+2020-04-03 00:26:37.075 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 00:26:37.076 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-03 00:26:37.107 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 31 ms
+2020-04-03 00:26:37.205 [http-nio-8081-exec-1] INFO  com.momolela.interceptor.MyInterceptor - 拦截器打印：请求结束了
+2020-04-03 00:26:37.618 [http-nio-8081-exec-1] INFO  com.momolela.interceptor.MyInterceptor - 拦截器打印：请求结束了
+2020-04-03 00:27:50.579 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 00:27:51.939 [SpringContextShutdownHook] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用停止了
+2020-04-03 00:28:01.989 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-04-03 00:28:02.302 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@655f7ea, started on Thu Jan 01 08:00:00 CST 1970
+2020-04-03 00:28:02.313 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-04-03 00:28:02.324 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 6284 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-04-03 00:28:02.326 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-04-03 00:28:02.512 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-04-03 00:28:04.376 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 00:28:04.379 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-03 00:28:04.417 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2020-04-03 00:28:04.951 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 00:28:05.389 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-04-03 00:28:05.402 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-03 00:28:05.403 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 00:28:05.403 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-03 00:28:05.533 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-04-03 00:28:05.534 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3021 ms
+2020-04-03 00:28:05.665 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-04-03 00:28:06.375 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-04-03 00:28:06.806 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 00:28:08.838 [main] INFO  io.searchbox.client.AbstractJestClient - Setting server pool to a list of 1 servers: [http://127.0.0.1:9200]
+2020-04-03 00:28:08.842 [main] INFO  io.searchbox.client.JestClientFactory - Using multi thread/connection supporting pooling connection manager
+2020-04-03 00:28:08.980 [main] INFO  io.searchbox.client.JestClientFactory - Using custom GSON instance
+2020-04-03 00:28:08.981 [main] INFO  io.searchbox.client.JestClientFactory - Node Discovery disabled...
+2020-04-03 00:28:08.981 [main] INFO  io.searchbox.client.JestClientFactory - Idle connection reaping disabled...
+2020-04-03 00:28:09.137 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-03 00:28:09.187 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot'
+2020-04-03 00:28:09.194 [main] INFO  com.momolela.SpringBootStart - Started SpringBootStart in 8.591 seconds (JVM running for 11.532)
+2020-04-03 00:28:09.197 [main] INFO  c.m.l.s.HelloApplicationRunner - ApplicationRunner...run....
+2020-04-03 00:28:09.197 [main] INFO  c.m.l.s.HelloCommandLineRunner - CommandLineRunner...run...[]
+2020-04-03 00:28:16.934 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 00:28:16.935 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-03 00:28:16.948 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2020-04-03 00:28:17.086 [http-nio-8081-exec-1] INFO  com.momolela.interceptor.MyInterceptor - 拦截器打印：请求结束了
+2020-04-03 00:35:01.900 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 00:35:03.195 [SpringContextShutdownHook] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用停止了
+2020-04-03 00:35:13.218 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-04-03 00:35:13.563 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@49872d67, started on Thu Jan 01 08:00:00 CST 1970
+2020-04-03 00:35:13.572 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-04-03 00:35:13.581 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 1016 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-04-03 00:35:13.583 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-04-03 00:35:13.840 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-04-03 00:35:15.382 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 00:35:15.388 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-03 00:35:15.443 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2020-04-03 00:35:16.028 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 00:35:16.487 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-04-03 00:35:16.509 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-03 00:35:16.510 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 00:35:16.511 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-03 00:35:16.651 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-04-03 00:35:16.652 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2811 ms
+2020-04-03 00:35:16.763 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-04-03 00:35:17.502 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-04-03 00:35:17.941 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 00:35:19.952 [main] INFO  io.searchbox.client.AbstractJestClient - Setting server pool to a list of 1 servers: [http://127.0.0.1:9200]
+2020-04-03 00:35:19.955 [main] INFO  io.searchbox.client.JestClientFactory - Using multi thread/connection supporting pooling connection manager
+2020-04-03 00:35:20.084 [main] INFO  io.searchbox.client.JestClientFactory - Using custom GSON instance
+2020-04-03 00:35:20.085 [main] INFO  io.searchbox.client.JestClientFactory - Node Discovery disabled...
+2020-04-03 00:35:20.085 [main] INFO  io.searchbox.client.JestClientFactory - Idle connection reaping disabled...
+2020-04-03 00:35:20.227 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-03 00:35:20.265 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot'
+2020-04-03 00:35:20.269 [main] INFO  com.momolela.SpringBootStart - Started SpringBootStart in 8.406 seconds (JVM running for 11.268)
+2020-04-03 00:35:20.271 [main] INFO  c.m.l.s.HelloApplicationRunner - ApplicationRunner...run....
+2020-04-03 00:35:20.271 [main] INFO  c.m.l.s.HelloCommandLineRunner - CommandLineRunner...run...[]
+2020-04-03 00:35:45.447 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 00:35:46.784 [SpringContextShutdownHook] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用停止了
+2020-04-03 00:35:56.507 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-04-03 00:35:56.801 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@66b7550d, started on Thu Jan 01 08:00:00 CST 1970
+2020-04-03 00:35:56.810 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-04-03 00:35:56.821 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 17888 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-04-03 00:35:56.823 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-04-03 00:35:57.136 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-04-03 00:35:58.549 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 00:35:58.552 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-03 00:35:58.590 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2020-04-03 00:35:59.160 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 00:35:59.666 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-04-03 00:35:59.680 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-03 00:35:59.682 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 00:35:59.682 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-03 00:35:59.816 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-04-03 00:35:59.817 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2681 ms
+2020-04-03 00:35:59.904 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-04-03 00:36:00.667 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-04-03 00:36:01.144 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 00:36:03.143 [main] INFO  io.searchbox.client.AbstractJestClient - Setting server pool to a list of 1 servers: [http://127.0.0.1:9200]
+2020-04-03 00:36:03.146 [main] INFO  io.searchbox.client.JestClientFactory - Using multi thread/connection supporting pooling connection manager
+2020-04-03 00:36:03.264 [main] INFO  io.searchbox.client.JestClientFactory - Using custom GSON instance
+2020-04-03 00:36:03.264 [main] INFO  io.searchbox.client.JestClientFactory - Node Discovery disabled...
+2020-04-03 00:36:03.264 [main] INFO  io.searchbox.client.JestClientFactory - Idle connection reaping disabled...
+2020-04-03 00:36:03.314 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-03 00:36:03.417 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-03 00:36:03.475 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot'
+2020-04-03 00:36:03.483 [main] INFO  com.momolela.SpringBootStart - Started SpringBootStart in 8.464 seconds (JVM running for 11.886)
+2020-04-03 00:36:03.485 [main] INFO  c.m.l.s.HelloApplicationRunner - ApplicationRunner...run....
+2020-04-03 00:36:03.485 [main] INFO  c.m.l.s.HelloCommandLineRunner - CommandLineRunner...run...[]
+2020-04-03 00:36:54.902 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-03 00:36:54.907 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 00:36:56.352 [SpringContextShutdownHook] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用停止了

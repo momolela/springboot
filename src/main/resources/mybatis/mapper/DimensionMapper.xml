@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.momolela.mapper.DimensionMapper">
+    <resultMap id="BaseResultMap" type="mdr.indcenter.pojos.Dimension">
+        <id column="DIMID" jdbcType="VARCHAR" property="dimid"/>
+        <result column="CATALOGID" jdbcType="VARCHAR" property="catalogid"/>
+        <result column="DIMNAME" jdbcType="VARCHAR" property="dimname"/>
+        <result column="DIMDICTYPE" jdbcType="VARCHAR" property="dimdictype"/>
+        <result column="DIMDIC" jdbcType="VARCHAR" property="dimdic"/>
+        <result column="DIMTABLENAME" jdbcType="VARCHAR" property="dimtablename"/>
+        <result column="DIMTYPE" jdbcType="VARCHAR" property="dimtype"/>
+    </resultMap>
+    <insert id="insert" parameterType="mdr.indcenter.pojos.Dimension">
+        insert into SYS_DIMENSION (DIMID, CATALOGID, DIMNAME,
+        DIMDICTYPE, DIMDIC, DIMTABLENAME,
+        DIMTYPE)
+        values (#{dimid,jdbcType=VARCHAR}, #{catalogid,jdbcType=VARCHAR}, #{dimname,jdbcType=VARCHAR},
+        #{dimdictype,jdbcType=VARCHAR}, #{dimdic,jdbcType=VARCHAR}, #{dimtablename,jdbcType=VARCHAR},
+        #{dimtype,jdbcType=VARCHAR})
+    </insert>
+</mapper>

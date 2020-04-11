@@ -1,0 +1,22 @@
+2020-03-22 13:54:32.840  INFO 15804 --- [main] com.momolela.SpringBootStartTests        : Starting SpringBootStartTests on DESKTOP-QMV0PHF with PID 15804 (started by Administrator in E:\idea\springboot)
+2020-03-22 13:54:32.842 DEBUG 15804 --- [main] com.momolela.SpringBootStartTests        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-03-22 13:54:32.843  INFO 15804 --- [main] com.momolela.SpringBootStartTests        : The following profiles are active: dev
+2020-03-22 13:54:38.209  INFO 15804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-22 13:54:39.086  INFO 15804 --- [main] com.momolela.SpringBootStartTests        : Started SpringBootStartTests in 7.89 seconds (JVM running for 11.471)
+2020-03-22 13:54:39.593 DEBUG 15804 --- [main] com.momolela.SpringBootStartTests        : 记录调试信息
+2020-03-22 13:54:39.594  INFO 15804 --- [main] com.momolela.SpringBootStartTests        : 记录自定义打印信息
+2020-03-22 13:54:39.594  WARN 15804 --- [main] com.momolela.SpringBootStartTests        : 记录警告信息
+2020-03-22 13:54:39.594 ERROR 15804 --- [main] com.momolela.SpringBootStartTests        : 记录错误信息
+2020-03-22 13:54:39.595  INFO 15804 --- [main] com.momolela.SpringBootStartTests        : name:sunzj,age:25
+2020-03-22 13:54:39.630  INFO 15804 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020‐03‐22 [main] INFO com.momolela.SpringBootStartTests ‐ Starting SpringBootStartTests on DESKTOP-QMV0PHF with PID 4572 (started by Administrator in E:\idea\springboot)
+2020‐03‐22 [main] DEBUG com.momolela.SpringBootStartTests ‐ Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020‐03‐22 [main] INFO com.momolela.SpringBootStartTests ‐ The following profiles are active: dev
+2020‐03‐22 [main] INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor ‐ Initializing ExecutorService 'applicationTaskExecutor'
+2020‐03‐22 [main] INFO com.momolela.SpringBootStartTests ‐ Started SpringBootStartTests in 6.116 seconds (JVM running for 8.948)
+2020‐03‐22 [main] DEBUG com.momolela.SpringBootStartTests ‐ 记录调试信息
+2020‐03‐22 [main] INFO com.momolela.SpringBootStartTests ‐ 记录自定义打印信息
+2020‐03‐22 [main] WARN com.momolela.SpringBootStartTests ‐ 记录警告信息
+2020‐03‐22 [main] ERROR com.momolela.SpringBootStartTests ‐ 记录错误信息
+2020‐03‐22 [main] INFO com.momolela.SpringBootStartTests ‐ name:sunzj,age:25
+2020‐03‐22 [SpringContextShutdownHook] INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor ‐ Shutting down ExecutorService 'applicationTaskExecutor'

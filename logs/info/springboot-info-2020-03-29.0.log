@@ -1,0 +1,182 @@
+2020-03-29 17:22:40.662 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:08:24.918 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-03-29 18:08:25.223 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2f6e28bc, started on Thu Jan 01 08:00:00 CST 1970
+2020-03-29 18:08:25.247 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-03-29 18:08:25.259 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 756 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-03-29 18:08:25.263 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-03-29 18:08:25.371 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-03-29 18:08:27.608 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-03-29 18:08:27.624 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-29 18:08:27.625 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-29 18:08:27.626 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-03-29 18:08:27.762 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-03-29 18:08:27.762 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2390 ms
+2020-03-29 18:08:27.871 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-03-29 18:08:28.124 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-03-29 18:08:28.518 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:08:28.999 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-29 18:08:29.038 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot'
+2020-03-29 18:08:29.045 [main] INFO  com.momolela.SpringBootStart - Started SpringBootStart in 5.437 seconds (JVM running for 7.995)
+2020-03-29 18:08:29.047 [main] INFO  c.m.l.s.HelloApplicationRunner - ApplicationRunner...run....
+2020-03-29 18:08:29.047 [main] INFO  c.m.l.s.HelloCommandLineRunner - CommandLineRunner...run...[]
+2020-03-29 18:09:39.187 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:11:50.613 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-03-29 18:11:50.871 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@47a86fbb, started on Thu Jan 01 08:00:00 CST 1970
+2020-03-29 18:11:50.889 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-03-29 18:11:50.899 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 14624 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-03-29 18:11:50.901 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-03-29 18:11:51.063 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-03-29 18:11:53.288 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-03-29 18:11:53.303 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-29 18:11:53.304 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-29 18:11:53.305 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-03-29 18:11:53.473 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-03-29 18:11:53.474 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2410 ms
+2020-03-29 18:11:53.601 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-03-29 18:11:53.802 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-03-29 18:11:54.199 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:11:54.725 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-29 18:11:54.778 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot'
+2020-03-29 18:11:54.786 [main] INFO  com.momolela.SpringBootStart - Started SpringBootStart in 5.636 seconds (JVM running for 8.562)
+2020-03-29 18:11:54.788 [main] INFO  c.m.l.s.HelloApplicationRunner - ApplicationRunner...run....
+2020-03-29 18:11:54.789 [main] INFO  c.m.l.s.HelloCommandLineRunner - CommandLineRunner...run...[]
+2020-03-29 18:12:46.168 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:16:56.028 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-03-29 18:16:56.560 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@476b0ae6, started on Thu Jan 01 08:00:00 CST 1970
+2020-03-29 18:16:56.569 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-03-29 18:16:56.579 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 9772 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-03-29 18:16:56.581 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-03-29 18:16:56.725 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-03-29 18:16:58.727 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-03-29 18:16:58.743 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-29 18:16:58.745 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-29 18:16:58.746 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-03-29 18:16:58.913 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-03-29 18:16:58.913 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2188 ms
+2020-03-29 18:16:59.073 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-03-29 18:16:59.276 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-03-29 18:16:59.704 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:17:00.265 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-29 18:17:00.324 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot'
+2020-03-29 18:17:00.333 [main] INFO  com.momolela.SpringBootStart - Started SpringBootStart in 5.982 seconds (JVM running for 9.353)
+2020-03-29 18:17:00.335 [main] INFO  c.m.l.s.HelloApplicationRunner - ApplicationRunner...run....
+2020-03-29 18:17:00.335 [main] INFO  c.m.l.s.HelloCommandLineRunner - CommandLineRunner...run...[]
+2020-03-29 18:17:35.706 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:18:34.588 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-03-29 18:18:34.973 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3e10dc6, started on Thu Jan 01 08:00:00 CST 1970
+2020-03-29 18:18:35.005 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-03-29 18:18:35.014 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 928 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-03-29 18:18:35.015 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-03-29 18:18:35.135 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-03-29 18:18:37.416 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-03-29 18:18:37.430 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-29 18:18:37.432 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-29 18:18:37.432 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-03-29 18:18:37.596 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-03-29 18:18:37.597 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2461 ms
+2020-03-29 18:18:37.745 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-03-29 18:18:37.934 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-03-29 18:18:38.349 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:18:38.865 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-29 18:18:38.911 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot'
+2020-03-29 18:18:38.920 [main] INFO  com.momolela.SpringBootStart - Started SpringBootStart in 5.633 seconds (JVM running for 8.333)
+2020-03-29 18:18:38.922 [main] INFO  c.m.l.s.HelloApplicationRunner - ApplicationRunner...run....
+2020-03-29 18:18:38.923 [main] INFO  c.m.l.s.HelloCommandLineRunner - CommandLineRunner...run...[]
+2020-03-29 18:24:40.687 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:25:20.479 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 4056 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-03-29 18:25:20.481 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-03-29 18:25:22.648 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-03-29 18:25:22.663 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-29 18:25:22.664 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-29 18:25:22.665 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-03-29 18:25:22.821 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-03-29 18:25:22.822 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2208 ms
+2020-03-29 18:25:22.966 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-03-29 18:25:23.134 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-03-29 18:25:23.494 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:25:23.951 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-29 18:25:23.987 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot'
+2020-03-29 18:25:23.992 [main] INFO  com.momolela.SpringBootStart - Started SpringBootStart in 5.063 seconds (JVM running for 7.561)
+2020-03-29 18:26:31.175 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:27:01.269 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-03-29 18:27:01.613 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4bd1f8dd, started on Thu Jan 01 08:00:00 CST 1970
+2020-03-29 18:27:01.621 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-03-29 18:27:01.630 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 9836 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-03-29 18:27:01.631 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-03-29 18:27:01.826 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-03-29 18:27:04.179 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-03-29 18:27:04.196 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-29 18:27:04.197 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-29 18:27:04.198 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-03-29 18:27:04.356 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-03-29 18:27:04.356 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2529 ms
+2020-03-29 18:27:04.674 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-03-29 18:27:05.052 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:27:05.565 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-29 18:27:05.613 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot'
+2020-03-29 18:27:05.618 [main] INFO  com.momolela.SpringBootStart - Started SpringBootStart in 5.775 seconds (JVM running for 8.707)
+2020-03-29 18:27:05.620 [main] INFO  c.m.l.s.HelloApplicationRunner - ApplicationRunner...run....
+2020-03-29 18:27:05.620 [main] INFO  c.m.l.s.HelloCommandLineRunner - CommandLineRunner...run...[]
+2020-03-29 18:31:09.443 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:38:59.855 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-03-29 18:39:00.263 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7fe7c640, started on Thu Jan 01 08:00:00 CST 1970
+2020-03-29 18:39:00.283 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-03-29 18:39:00.295 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 8636 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-03-29 18:39:00.297 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-03-29 18:39:00.485 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-03-29 18:39:02.793 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-03-29 18:39:02.810 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-29 18:39:02.811 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-29 18:39:02.812 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-03-29 18:39:02.970 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-03-29 18:39:02.970 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2484 ms
+2020-03-29 18:39:03.074 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-03-29 18:39:03.284 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-03-29 18:39:03.697 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:39:04.192 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-29 18:39:04.238 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot'
+2020-03-29 18:39:04.245 [main] INFO  com.momolela.SpringBootStart - Started SpringBootStart in 5.884 seconds (JVM running for 9.929)
+2020-03-29 18:39:04.247 [main] INFO  c.m.l.s.HelloApplicationRunner - ApplicationRunner...run....
+2020-03-29 18:39:04.248 [main] INFO  c.m.l.s.HelloCommandLineRunner - CommandLineRunner...run...[]
+2020-03-29 18:45:19.443 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-29 19:03:06.763 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-03-29 19:03:07.043 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@77b14724, started on Thu Jan 01 08:00:00 CST 1970
+2020-03-29 19:03:07.066 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-03-29 19:03:07.097 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 10724 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-03-29 19:03:07.098 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-03-29 19:03:07.338 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-03-29 19:03:10.104 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-03-29 19:03:10.123 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-29 19:03:10.124 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-29 19:03:10.125 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-03-29 19:03:10.272 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-03-29 19:03:10.272 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2933 ms
+2020-03-29 19:03:10.424 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-03-29 19:03:10.621 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-03-29 19:03:11.037 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 19:03:11.598 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-29 19:03:11.645 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot'
+2020-03-29 19:03:11.651 [main] INFO  com.momolela.SpringBootStart - Started SpringBootStart in 6.332 seconds (JVM running for 10.079)
+2020-03-29 19:03:11.652 [main] INFO  c.m.l.s.HelloApplicationRunner - ApplicationRunner...run....
+2020-03-29 19:03:11.653 [main] INFO  c.m.l.s.HelloCommandLineRunner - CommandLineRunner...run...[]
+2020-03-29 19:04:54.728 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-29 19:05:31.702 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-03-29 19:05:31.951 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7ec3394b, started on Thu Jan 01 08:00:00 CST 1970
+2020-03-29 19:05:31.971 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-03-29 19:05:31.981 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 14460 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-03-29 19:05:31.982 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-03-29 19:05:32.193 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-03-29 19:05:34.909 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-03-29 19:05:34.924 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-29 19:05:34.925 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-29 19:05:34.926 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-03-29 19:05:35.073 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-03-29 19:05:35.074 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2881 ms
+2020-03-29 19:05:35.232 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-03-29 19:05:35.429 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-03-29 19:05:35.828 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 19:05:36.394 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-29 19:05:36.442 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot'
+2020-03-29 19:05:36.447 [main] INFO  com.momolela.SpringBootStart - Started SpringBootStart in 6.198 seconds (JVM running for 9.135)
+2020-03-29 19:05:36.449 [main] INFO  c.m.l.s.HelloApplicationRunner - ApplicationRunner...run....
+2020-03-29 19:05:36.449 [main] INFO  c.m.l.s.HelloCommandLineRunner - CommandLineRunner...run...[]

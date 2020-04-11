@@ -1,0 +1,61 @@
+2020-04-08 23:21:23.173 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-04-08 23:21:23.740 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7fc6de5b, started on Thu Jan 01 08:00:00 CST 1970
+2020-04-08 23:21:23.761 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-04-08 23:21:23.782 [main] INFO  com.momolela.SpringBootStart - Starting SpringBootStart on DESKTOP-QMV0PHF with PID 15452 (E:\idea\springboot\target\classes started by Administrator in E:\idea\springboot)
+2020-04-08 23:21:23.813 [main] INFO  com.momolela.SpringBootStart - The following profiles are active: dev
+2020-04-08 23:21:24.411 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-04-08 23:21:26.006 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-08 23:21:26.011 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-08 23:21:26.056 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2020-04-08 23:21:26.675 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 23:21:27.227 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-04-08 23:21:27.243 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-08 23:21:27.244 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-08 23:21:27.244 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-08 23:21:27.418 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2020-04-08 23:21:27.419 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3007 ms
+2020-04-08 23:21:27.580 [main] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用启动了
+2020-04-08 23:21:28.387 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-04-08 23:21:28.890 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 23:21:31.238 [main] INFO  io.searchbox.client.AbstractJestClient - Setting server pool to a list of 1 servers: [http://127.0.0.1:9200]
+2020-04-08 23:21:31.242 [main] INFO  io.searchbox.client.JestClientFactory - Using multi thread/connection supporting pooling connection manager
+2020-04-08 23:21:31.377 [main] INFO  io.searchbox.client.JestClientFactory - Using custom GSON instance
+2020-04-08 23:21:31.377 [main] INFO  io.searchbox.client.JestClientFactory - Node Discovery disabled...
+2020-04-08 23:21:31.377 [main] INFO  io.searchbox.client.JestClientFactory - Idle connection reaping disabled...
+2020-04-08 23:21:31.431 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-08 23:21:31.593 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-08 23:21:31.619 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot'
+2020-04-08 23:21:31.623 [main] INFO  com.momolela.SpringBootStart - Started SpringBootStart in 10.624 seconds (JVM running for 14.257)
+2020-04-08 23:21:31.625 [main] INFO  c.m.l.s.HelloApplicationRunner - ApplicationRunner...run....
+2020-04-08 23:21:31.626 [main] INFO  c.m.l.s.HelloCommandLineRunner - CommandLineRunner...run...[]
+2020-04-08 23:25:14.204 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 23:25:14.204 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-08 23:25:14.223 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2020-04-08 23:25:14.368 [http-nio-8081-exec-2] INFO  com.momolela.interceptor.MyInterceptor - 拦截器打印：请求结束了
+2020-04-08 23:25:22.072 [http-nio-8081-exec-3] INFO  com.momolela.interceptor.MyInterceptor - 拦截器打印：请求结束了
+2020-04-08 23:46:32.267 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...environmentPrepared..Windows 10
+2020-04-08 23:46:32.923 [main] INFO  c.m.l.s.HelloApplicationContextInitializer - ApplicationContextInitializer...initialize...org.springframework.web.context.support.GenericWebApplicationContext@420bc288, started on Thu Jan 01 08:00:00 CST 1970
+2020-04-08 23:46:32.935 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextPrepared...
+2020-04-08 23:46:32.950 [main] INFO  com.momolela.MailSenderTests - Starting MailSenderTests on DESKTOP-QMV0PHF with PID 2408 (started by Administrator in E:\idea\springboot)
+2020-04-08 23:46:32.952 [main] INFO  com.momolela.MailSenderTests - The following profiles are active: dev
+2020-04-08 23:46:33.136 [main] INFO  c.m.l.s.HelloSpringApplicationRunListener - SpringApplicationRunListener...contextLoaded...
+2020-04-08 23:46:36.708 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-08 23:46:36.718 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-08 23:46:36.777 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2020-04-08 23:46:37.840 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-08 23:46:40.130 [main] INFO  com.momolela.config.MyAppConfig - 通过@Configuration和@Bean注解添加helloWorldService对象到容器中了
+2020-04-08 23:46:42.294 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 23:46:47.937 [main] INFO  io.searchbox.client.AbstractJestClient - Setting server pool to a list of 1 servers: [http://127.0.0.1:9200]
+2020-04-08 23:46:47.940 [main] INFO  io.searchbox.client.JestClientFactory - Using multi thread/connection supporting pooling connection manager
+2020-04-08 23:46:48.139 [main] INFO  io.searchbox.client.JestClientFactory - Using custom GSON instance
+2020-04-08 23:46:48.140 [main] INFO  io.searchbox.client.JestClientFactory - Node Discovery disabled...
+2020-04-08 23:46:48.140 [main] INFO  io.searchbox.client.JestClientFactory - Idle connection reaping disabled...
+2020-04-08 23:46:48.414 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-08 23:46:48.704 [main] INFO  com.momolela.MailSenderTests - Started MailSenderTests in 19.152 seconds (JVM running for 22.574)
+2020-04-08 23:46:48.707 [main] INFO  c.m.l.s.HelloApplicationRunner - ApplicationRunner...run....
+2020-04-08 23:46:48.708 [main] INFO  c.m.l.s.HelloCommandLineRunner - CommandLineRunner...run...[]
+2020-04-08 23:46:50.787 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-08 23:46:50.790 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 23:57:33.650 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-08 23:57:33.654 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 23:57:35.327 [SpringContextShutdownHook] INFO  com.momolela.listener.servletListener.MyListener - ===========web应用停止了
