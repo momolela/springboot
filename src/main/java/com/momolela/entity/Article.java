@@ -2,13 +2,14 @@ package com.momolela.entity;
 
 import io.searchbox.annotations.JestId;
 import lombok.Data;
-//import org.springframework.data.annotation.Id;
-//import org.springframework.data.elasticsearch.annotations.Document;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.elasticsearch.annotations.Document;
 
 @Data
+@Document(indexName="momolela",type = "news")
 public class Article {
     @JestId
-//    @Id
+    @Id
     private Integer id;
     private String author;
     private String title;

@@ -6,7 +6,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @Configuration 指明当前类是一个配置类；就是来替代之前的Spring的xml配置文件
+ * @Configuration 指明当前类是一个配置类；
+ * 就是来替代之前的Spring的xml配置文件
  * 以前在配置文件中用<bean></bean>标签添加组件，现在使用注解@Bean
  */
 @Slf4j
