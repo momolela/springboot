@@ -6,9 +6,11 @@ server:
 spring:
   profiles:
     active: dev # 用dev的环境
+
 ---
 spring:
   profiles: dev
+  # datasource
   datasource:
     username: bship_mdr
     password: bsoft
@@ -27,7 +29,6 @@ spring:
     testOnBorrow: false
     testOnReturn: false
     poolPreparedStatements: true
-
   # redis
   redis:
     host: 127.0.0.1
@@ -47,26 +48,37 @@ spring:
         smtp:
           ssl:
             enable: true
+  # data
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 127.0.0.1:9300
 
-#  data:
-#    elasticsearch:
-#      cluster-name: elasticsearch
-#      cluster-nodes: 127.0.0.1:9300
 
+# mybatis
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml # 默认
+  mapper-locations: classpath:mybatis/mapper/*.xml # 默认
 
 #  resources:
 #    static-locations: classpath:/ # 配置静态文件的源目录
 
+# server
 server:
-  port: 8081
+  port: 8081 # 项目端口号，注意congfig/MyServerConfig里的webServerFactoryCustomizer是否做了特殊配置
   servlet:
     context-path: /springboot # 项目名
+    session:
+      timeout: 30m # 会话超时时间
+#      cookie:
+#        http-only: true # 浏览器脚本将无法访问cookie
+#        secure: true # 则cookie将仅通过HTTPS连接发送
 
+# 自定义starter的配置
 momolela:
   hello:
     prefix: hello
     suffix:  you are the best
-
 
 #logging:
 #  level:
@@ -86,7 +98,6 @@ spring:
 
 server:
   port: 8082
-
 
 #person:
 #  lastName: sunzj

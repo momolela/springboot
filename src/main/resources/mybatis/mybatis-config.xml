@@ -5,9 +5,13 @@
 <configuration>
 
     <settings>
-        <!-- 驼峰转换 -->
+        <!-- 驼峰转换，比如数据库是user_name 属性是userName，该项配置可以在mapper文件里不用写列和对象属性的映射关系也就是 resultMap不用写了 -->
         <setting name="mapUnderscoreToCamelCase" value="true"/>
         <!-- 打印查询语句 -->
         <setting name="logImpl" value="SLF4J"/>
+        <!-- 插入null值，但是mapper的xml中没有指定JdbcType会报错问题的解决 -->
+        <setting name="jdbcTypeForNull" value="NULL"/>
+        <!-- 解决，查询返回结果含null没有对应字段值问题 -->
+        <setting name="callSettersOnNulls" value="true"/>
     </settings>
 </configuration>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.momolela.mapper.DimensionMapper">
-    <resultMap id="BaseResultMap" type="mdr.indcenter.pojos.Dimension">
+    <resultMap id="BaseResultMap" type="com.momolela.entity.Dimension">
         <id column="DIMID" jdbcType="VARCHAR" property="dimid"/>
         <result column="CATALOGID" jdbcType="VARCHAR" property="catalogid"/>
         <result column="DIMNAME" jdbcType="VARCHAR" property="dimname"/>
@@ -10,7 +10,7 @@
         <result column="DIMTABLENAME" jdbcType="VARCHAR" property="dimtablename"/>
         <result column="DIMTYPE" jdbcType="VARCHAR" property="dimtype"/>
     </resultMap>
-    <insert id="insert" parameterType="mdr.indcenter.pojos.Dimension">
+    <insert id="insert" parameterType="com.momolela.entity.Dimension">
         insert into SYS_DIMENSION (DIMID, CATALOGID, DIMNAME,
         DIMDICTYPE, DIMDIC, DIMTABLENAME,
         DIMTYPE)
