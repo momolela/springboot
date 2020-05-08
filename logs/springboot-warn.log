@@ -1,6 +1,0 @@
-2020-04-09 00:15:56.586 [main] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
-2020-04-09 00:16:00.303 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2020-04-09 00:17:52.325 [main] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
-2020-04-09 00:17:55.508 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2020-04-09 00:20:08.556 [main] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
-2020-04-09 00:20:11.899 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
