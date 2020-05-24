@@ -139,7 +139,25 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.59</version>
         </dependency>
-        <!-- spring-boot-devtools 开发热部署 -->
+        <!-- 用于JSON API文档的生成-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <!-- 用于swagger html生成-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <!-- javassist 动态生成类 -->
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.21.0-GA</version>
+        </dependency>
+        <!-- spring-boot-devtools 开发热部署，javassit动态生成类在热部署启动的时候会报错 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>

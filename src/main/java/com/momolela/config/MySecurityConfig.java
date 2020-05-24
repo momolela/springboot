@@ -48,7 +48,8 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter {
         // 定制请求的授权规则，web授权
         // 授权类型1：hasRole()，基于角色的访问控制
         // 授权类型2：hasAuthority()，基于资源的访问控制
-        http.authorizeRequests().antMatchers("/").permitAll()
+        http.csrf().disable() // 关闭csrf
+                .authorizeRequests().antMatchers("/").permitAll()
                 .antMatchers("/level1/**").hasRole("VIP1")
                 .antMatchers("/level2/**").hasRole("VIP2")
                 .antMatchers("/level3/**").hasRole("VIP3");

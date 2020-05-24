@@ -1,6 +1,5 @@
 package com.momolela.interceptor;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -16,7 +15,7 @@ public class MyInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         String auth = request.getParameter("auth");
         if (auth == "true") {
-            log.info("拦截器打印：被拦截器拦截了");
+            log.info("拦截器打印：请求被拦截器拦截了");
             return false;
         } else {
             return true;
