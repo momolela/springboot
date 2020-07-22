@@ -11,6 +11,8 @@ import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
 import java.util.Arrays;
 
 /**
@@ -30,6 +32,18 @@ public class MyServerConfig {
         ServletRegistrationBean servletRegistrationBean = new ServletRegistrationBean(new MyServlet(), "/myServlet");
         servletRegistrationBean.setLoadOnStartup(1);
         return servletRegistrationBean;
+    }
+
+    /**
+     * 另外一种方式注册Servlet
+     */
+    @Bean
+    public ServletRegistrationBean myServlet(ServletContext servletContext) throws ServletException {
+        MyServlet myServlet = new MyServlet();
+        MyServletConfig myServletConfig = new MyServletConfig("myServlet", servletContext); // 可以添加 servletName
+        myServletConfig.setInitParams("haha", "hehe"); // 可以添加参数
+        myServlet.init(myServletConfig);
+        return new ServletRegistrationBean(myServlet, "/myServlet");
     }
 
     /**
