@@ -17,8 +17,13 @@ import java.util.Map;
 @Configuration
 public class DruidConfig {
 
+    /**
+     * 默认只有一个数据源的时候，这样配置就可以了
+     *
+     * @return
+     */
+    @Bean("dataSource")
     @ConfigurationProperties(prefix = "spring.datasource")
-    @Bean
     public DataSource druid() {
         return new DruidDataSource();
     }

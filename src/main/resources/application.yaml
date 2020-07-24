@@ -54,6 +54,27 @@ spring:
       cluster-name: elasticsearch
       cluster-nodes: 127.0.0.1:9300
 
+# 多数据源
+multi:
+  datasource:
+    haibase:
+      username: bship_base
+      password: bsoft
+      url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+      type: com.alibaba.druid.pool.DruidDataSource
+      # druid数据源配置
+      initialSize: 5
+      minIdle: 5
+      maxActive: 20
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: SELECT 1 FROM DUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      poolPreparedStatements: true
 
 # mybatis
 mybatis:
